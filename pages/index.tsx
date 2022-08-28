@@ -4,8 +4,6 @@ export default function Home() {
   return (
     <div>
 
-
-
     <div className=" font-sans antialiased w-full bg-gray-200 container mx-auto max-w-screen-xl">
       <main
         id="wrapper"
@@ -44,6 +42,7 @@ export default function Home() {
               <a href="tel:">0681353543</a>
             </div>
             <div className="flex items-center my-3">
+           {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/assets/home-outline.svg"
                 className="inline w-6 pb-1 mr-4"
@@ -125,7 +124,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="JS Logo"
               />
-                <label for="js-skill" className="hover:underline">JavaScript</label>
+                <label htmlFor="js-skill" className="hover:underline">JavaScript</label>
               </li>
               
               <li>
@@ -134,7 +133,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="React Logo"
               />
-                <label for="react-skill" className="hover:underline ">React</label>
+                <label htmlFor="react-skill" className="hover:underline ">React</label>
               </li>
               <li>
                 <img
@@ -142,7 +141,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="NextJS Logo"
               />
-                <label for="nextjs-skill" className="hover:underline ">Next.js</label>
+                <label htmlFor="nextjs-skill" className="hover:underline ">Next.js</label>
               </li>
               <li>
                 <img
@@ -150,7 +149,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="Html Logo"
               />
-                <label for="eleventy-skill" className="hover:underline ">Html</label>
+                <label htmlFor="eleventy-skill" className="hover:underline ">Html</label>
               </li>
               <li>
                 <img
@@ -158,7 +157,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="CSS Logo"
               />
-                <label for="node-skill" className="hover:underline ">CSS</label>
+                <label htmlFor="node-skill" className="hover:underline ">CSS</label>
               </li>
               <li>
                 <img
@@ -166,7 +165,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="Redux Logo"
               />
-                <label for="css-skill" className="hover:underline ">Redux</label>
+                <label htmlFor="css-skill" className="hover:underline ">Redux</label>
               </li>
               <li>
                 <img
@@ -174,7 +173,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="Figma Logo"
               />
-                <label for="design-skill" className="hover:underline ">Figma</label>
+                <label htmlFor="design-skill" className="hover:underline ">Figma</label>
               </li>
               <li>
                 <img
@@ -182,7 +181,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="Postman Logo"
               />
-                <label for="design-skill" className="hover:underline ">Postman</label>
+                <label htmlFor="design-skill" className="hover:underline ">Postman</label>
               </li>
               <li>
                 <img
@@ -190,7 +189,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="Git Logo"
               />
-                <label for="design-skill" className="hover:underline ">Git</label>
+                <label htmlFor="design-skill" className="hover:underline ">Git</label>
               </li>
               <li>
                 <img
@@ -198,7 +197,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="MySQL Logo"
               />
-                <label for="design-skill" className="hover:underline ">MySQL</label>
+                <label htmlFor="design-skill" className="hover:underline ">MySQL</label>
               </li>
               <li>
                 <img
@@ -206,7 +205,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="tailwind Logo"
               />
-                <label for="design-skill" className="hover:underline">Tailwindcss</label>
+                <label htmlFor="design-skill" className="hover:underline">Tailwindcss</label>
               </li>
               <li>
                 <img
@@ -214,7 +213,7 @@ export default function Home() {
                 className="inline w-6 mr-4"
                 alt="MSOffice Logo"
               />
-                <label for="design-skill" className="hover:underline">MSOffice</label>
+                <label htmlFor="design-skill" className="hover:underline">MSOffice</label>
               </li>
             </ul>
           </div>
@@ -245,8 +244,8 @@ export default function Home() {
               Bootstrap to speed up styling my projects.
             </p>
             <p>
-              I am highly motivated in expanding my horizons day by day for
-              better performance, testing and user experience.
+              I am highly motivated in expanding my horizons day by day htmlFor
+              better perhtmlFormance, testing and user experience.
             </p>
           </div>
           <hr className="mt-8 mb-12" />

@@ -1,4 +1,3 @@
 module.exports = {
-    base: "/dev-resume-template/",
-  };
-  
+  base: "/dev-resume-template/",
+};

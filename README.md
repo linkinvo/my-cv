@@ -1,41 +1,34 @@
-# Developer's Resume Template
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**Made with ❤️ by [Chrisko](https://chrisko.io/)**
+## Getting Started
 
-...and
+First, run the development server:
 
-- [TailwindCSS](https://tailwindcss.com) - A utility-first CSS framework
-- [Vite](https://vitejs.dev) - Next Generation of Frontend Tooling
-- [Ionicons](https://ionicons.com) - Open source icons. Lovingly hand-crafted.
-
-## Create your own resume - host it on GitHub PagesA
-
-This is a **template repository**.
-
-You can create your own copy of it by clicking on the green button _"Use this template"_ above the file list.
-
-[![Use this Template Button](./assets/template-button.png)](https://github.com/christiankozalla/dev-resume-template/generate)
-
-If you _"Include all branches"_ during the process, the template will already be online on GitHub Pages. The URL should be _https://\<USERNAME\>.github.io/\<REPO-NAME\>/_
-
-Or you only copy the _main_ branch and deploy the project to GitHub Pages yourself.
-
-More information about template repositories on the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-
-## Usage
-
-`package.json` provides four scripts for development, build, preview and deploy. The first three are associated with Vite. The script _deploy_ uses [push-dir](https://github.com/L33T-KR3W/push-dir) to push the `dist` directory to the `gh-pages` branch.
-
-In order to deploy the local changes you made:
-
-```sh
-# Clear working tree
-$ git add .
-$ git commit -m "Before deploy"
-
-# build project to dist directory
-$ npm run build
-
-# Use push-dir to push dist to gh-pages
-$ npm run deploy
+```bash
+npm run dev
+# or
+yarn dev
 ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -241,7 +241,8 @@ export default function Home() {
           <div className="content w-full p-12">
             <div id="profile" className="prose">
               <h2 className="section-headline text-blue-500">Profile</h2>
-              <p>
+              <br/>
+              <p className='text-black'>
                 I am a self-taught web developer specializing in basic web 
                 fundamentals - HTML, CSS and JS. I have experience with the React 
                 front-end library, and static site generators like Next.js . 
@@ -256,6 +257,7 @@ export default function Home() {
             <hr className="mt-8 mb-12" />
             <div id="experience" className="prose">
               <h2 className="section-headline">Experience</h2>
+              <br/>
               <div>
                 <section className="mb-6">
                   <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">

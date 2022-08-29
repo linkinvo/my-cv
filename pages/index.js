@@ -26,7 +26,7 @@ export default function Home() {
                 className="rounded-full w-48 mx-auto mb-2"
               />
               <h1 className="text-center text-3xl font-semibold mb-2">Vladimir Ilin</h1>
-              <h2 className="text-center text-xl font-light">Front-end junior developer</h2>
+              <h2 className="text-center text-xl font-light">Front-end developer</h2>
             </div>
   
             <div className="font-light text-lg px-2 mb-12">

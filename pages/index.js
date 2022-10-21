@@ -164,14 +164,14 @@ export default function Home() {
                 />
                   <label htmlFor="node-skill" className="hover:underline ">CSS</label>
                 </li>
-                <li>
+                {/* <li>
                   <img
                   src="/assets/redux.png"
                   className="inline w-6 mr-4"
                   alt="Redux Logo"
                 />
                   <label htmlFor="css-skill" className="hover:underline ">Redux</label>
-                </li>
+                </li> */}
                 <li>
                   <img
                   src="/assets/figma.png"
@@ -204,14 +204,14 @@ export default function Home() {
                 />
                   <label htmlFor="design-skill" className="hover:underline ">MySQL</label>
                 </li>
-                <li>
+                {/* <li>
                   <img
                   src="/assets/tailwind.png"
                   className="inline w-6 mr-4"
                   alt="tailwind Logo"
                 />
                   <label htmlFor="design-skill" className="hover:underline">Tailwindcss</label>
-                </li>
+                </li> */}
                 <li>
                   <img
                   src="/assets/microsoft.png"

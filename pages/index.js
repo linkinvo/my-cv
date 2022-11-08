@@ -54,7 +54,7 @@ export default function Home() {
                   alt="House icon"
                 />
                 <div>
-                  <p>Zaporozhye</p>
+                  <p>Kyiv</p>
                 </div>
               </div>
             </div>

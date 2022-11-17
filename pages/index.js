@@ -198,11 +198,11 @@ export default function Home() {
                 </li>
                 <li>
                   <img
-                  src="/assets/mysql.png"
+                  src="https://www.typescripttutorial.net/wp-content/uploads/2020/04/favicon.png"
                   className="inline w-6 mr-4"
                   alt="MySQL Logo"
                 />
-                  <label htmlFor="design-skill" className="hover:underline ">MySQL</label>
+                  <label htmlFor="design-skill" className="hover:underline ">TypeScript</label>
                 </li>
                 {/* <li>
                   <img

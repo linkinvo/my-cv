@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .section-headline {
   @apply font-bold sm:text-xl uppercase tracking-widest border-red-500 border-l-8 pl-1;
 }
@@ -13,6 +14,8 @@
 .section-headline {
   color: #2451a3 !important;
 }
+
+
 
 progress {
   margin-top: 0.5rem;

@@ -296,8 +296,7 @@ export default function Home() {
                 <br/>
                 <br/>
                 Also, I had an internship with university students at GoldenTime.
-                Studied Next.js, Tailwindcss, TypeScript, Redux, Express and MySQL.
-                The practice was three months.
+                Studied Next.js, Tailwindcss, TypeScript, Redux.
                   </div>
                 </section>
               </div>
